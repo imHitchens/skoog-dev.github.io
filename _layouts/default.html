@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>{%- if page.title %}{{ page.title }} - {%- endif %} {{ site.title }} - {{ site.description }}</title>
+    <meta name="description" content="skoog.dev blog" />
+    {% feed_meta %}
+    <link rel="stylesheet" href="/assets/css/simple.css">
+</head>
+<body>
+    <header>
+        <h1>{{ page.header }}</h1>
+        <p>{{ page.description }}</p>
+        {% include navigation.html %}
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>This blog is maintained by me, <a href="https://twitter.com/imHitchens">imHitchens</a>.</p><p>Reach out to me by email with something interesting @ domain name.</p>
+    </footer>
+
+</body>
+
+</html>

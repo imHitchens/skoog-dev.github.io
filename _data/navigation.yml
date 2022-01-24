@@ -1,0 +1,10 @@
+- name: Blog
+  link: /
+# - name: Contact
+#   link: /contact
+- name: GitHub
+  link: https://github.com/imHitchens
+- name: Twitter
+  link: https://github.com/imHitchens
+- name: RSS Feed
+  link: /feed.xml

@@ -1,0 +1,17 @@
+# SEO Stuff
+author: Simon Skoog
+title: skoog.dev  
+description: blog
+lang: en
+locale: en_GB
+url: "https://www.skoog.dev"
+baseurl: ""
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# RSS feeds
+feed:
+  posts_limit: 20
